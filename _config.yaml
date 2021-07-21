@@ -6,5 +6,6 @@ jailed: false
 kramdown:
   hard_wrap: true
   input: GFM
+  smart_quotes: ["apos", "apos", "quot", "quot"]
 plugins:
   - jekyll-redirect-from
