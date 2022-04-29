@@ -14,4 +14,7 @@ catch e
 	@info "错误 > $n"
 	@info e
 end
+isempty(ARGS) || exit()
+print("> ")
 readline()
+
